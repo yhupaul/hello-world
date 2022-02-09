@@ -6,11 +6,11 @@ let reverse = function (args) {
   let result = "";
   for (let arg of args) {
     arg = arg + '\n';
-    for (let i = arg.length - 1; i >= 0; i--){
+    for (let i = arg.length - 1; i >= 0; i--) {
       result += arg[i]
     }
   }
-   return result;
+  return result;
 };
 
 console.log(reverse(args));
